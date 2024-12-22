@@ -12,7 +12,7 @@ import lombok.Setter;
 @Entity
 public class Accounts extends BaseEntity{
     @Column(name = "customer_id")
-    private int customerId;
+    private Long customerId;
 
     @Column(name = "account_type")
     private String accountType;
